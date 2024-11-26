@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(126, 126, 126);
+  }
+  footer{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    background-color: #333;
+    color: aliceblue;
+  }
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    color: rgb(249, 250, 250);
+  }
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+   main nav ul {
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+   background-color: #333;
+   color: rgb(249, 250, 250);
+ }
+  main nav ul li {
+   display: inline;
+   margin: 0 10px;
+  }
+  
+h4 {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #33333300;
+    color: rgb(249, 250, 250);
+  }
+  nav ul li a {
+    list-style-type: none;
+    padding: 0;
+    background-color: #33333300;
+    color: rgb(249, 250, 250);
+  }
+ form {
+    background-color: rgba(21, 21, 21, 0);
+    width: 300px;
+    border: 10px solid rgb(37, 36, 36);
+    padding: 50px;
+    margin: 20px;
+    color: rgb(249, 250, 250);
+  }

@@ -3,7 +3,7 @@ header nav ul {
  list-style-type: none;
  padding: 0;
  text-align: center;
- background-color: #333;
+ background-color: #666666;
  color: rgb(249, 250, 250);
 }
 header nav ul li {
@@ -18,6 +18,31 @@ footer{
     list-style-type: none;
     padding: 0;
     text-align: left;
-    background-color: #333;
+    background-color: #666666;
     color: aliceblue;
   }
+    .search-bar {
+    height: 30px;
+    border-radius:20px;
+
+}
+button {
+  background-color: #acacac;
+  color: #e0e0e0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+body{
+  background-color: #e0e0e0;
+}
+article{
+  background-color: aliceblue;
+  width: 250px;
+  padding: 50px;
+  margin: 20px;
+}
+articles{
+  display:flex ;
+}
