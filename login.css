@@ -1,6 +1,9 @@
 body {
     background-color:#e0e0e0;
   }
+  .Homelogo {
+    border-radius: 100px;
+  }
   footer{
     list-style-type: none;
     padding: 0;
@@ -35,6 +38,10 @@ header nav ul li a:hover {
 .search-bar {
   height: 30px;
   border-radius:20px;
+}
+.search-bar:hover{
+  width: 200px;
+  transition: 1s ease;
 }
    main nav ul {
    list-style-type: none;
