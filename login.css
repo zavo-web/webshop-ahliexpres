@@ -4,10 +4,13 @@ body {
   .Homelogo {
     border-radius: 100px;
   }
-  footer{
+h4{
+  color:#000000;
+}
+  footer {
     list-style-type: none;
     padding: 0;
-    text-align: left;
+    text-align: center;
     background-color: #e7e7e7;
     color: rgb(0, 0, 0);
   }
@@ -78,4 +81,20 @@ h4 {
   }
 form{
 margin: auto;
+}
+button {
+  padding: 14px 20px;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+button {
+  background-color: rgba(143, 51, 51, 0);
+  color: rgb(0, 0, 0);
+  border: 2px solid #000000;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
 }
