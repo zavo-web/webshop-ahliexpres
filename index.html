@@ -1,124 +1,120 @@
 
 <!DOCTYPE html>
 <html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webshop</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Nike Winkel</title>
-
-    <link rel="stylesheet" href="webshop.css">
-</head>
-
-<body>
-
+  <body>
+    <!-- amine heeft van doctype html tot haeder en vahe de rest-->
     <header>
-        <h1>Welkom bij de Nike Winkel</h1>
-        <nav>
-            <a href="#">Home</a> |
-            <a href="#">Producten</a> |
-            <a href="#">Contact</a> |
-            <a href="#">Over ons</a>
-        </nav>
-        <section class="zoek">
+      <nav>
+        <div class="navigatie">
+          <div class="logo-bar">
+            <a href="http://127.0.0.1:3000/index.html">
+              <img
+                class="Homelogo"
+                src="https://i.postimg.cc/GmMFj6LK/Afbeelding-2.jpg"
+                height="150"
+                width="150"
+                alt="Home"
+            /></a>
 
-            <section>
-                <form action="#" method="get" style="margin-top: 10px;">
-                    <input type="text" placeholder="Zoek producten..." name="zoekopdracht">
-                    <button type="submit">Zoeken</button>
-                </form>
-            </section>
+            <a href="#contact" class="nav-link">contact</a>
+            <a href="#over_ons" class="nav-link">over ons</a>
+            <a href="artikel_Pagina.html" class="nav-link">artikels</a>
+          </div>
 
-            <section>
-                <a href="#"><img class="cart" src="cart.png"></a>
-            </section>
+          <input type="text" placeholder="Zoeken..." class="search-bar" />
 
-        </section>
+          <div>
+            <a href="http://127.0.0.1:3000/login.html"
+              ><img
+                src="https://i.postimg.cc/BnqWFPbD/user-interface.png"
+                height="30"
+                width="30"
+                alt="login"
+            /></a>
+
+            <a href="http://127.0.0.1:3000/winkelmand.html"
+              ><img
+                src="https://i.postimg.cc/QCwttkhp/shopping-cart.png"
+                height="30"
+                width="30"
+                alt="winkelmand"
+            /></a>
+          </div>
+        </div>
+      </nav>
     </header>
-
-
-    <section>
-        <h2>Speciale Aanbiedingen</h2>
-        <p>Ontdek onze nieuwste aanbiedingen op Nike producten!</p>
-    </section>
-
-    <section>
-        <h3>Categorieën</h3>
-        <div>
-            <div>
-                <h4>Kleding</h4>
-                <p>Bekijk ons assortiment kleding.</p>
-            </div>
-            <div>
-                <h4>Schoenen</h4>
-                <p>Nike schoenen.</p>
-            </div>
-            <div>
-                <h4>Accessoires</h4>
-                <p>Stijlvolle accessoires</p>
-            </div>
+    <hr />
+    <main>
+      <div class="background-img">
+        <form action="http://127.0.0.1:3000/artikel_Pagina.html">
+          <button>Shop Nu</button>
+        </form>
+      </div>
+      <hr />
+      <div id="over_ons">
+        <div class="over_ons">
+          <p>
+            Wij zijn een gloednieuwe webshop die gespecialiseerd is in het
+            aanbieden van de allernieuwste kleding van bekende en populaire
+            merken. Bij ons vind je altijd de meest trendy, stijlvolle en
+            modieuze items die perfect passen bij de laatste mode. Of je nu op
+            zoek bent naar casual outfits, sportieve looks of iets chics, wij
+            hebben voor ieder wat wils. Bovendien bieden wij deze fantastische
+            items aan tegen de allerlaagste prijzen, zodat je stijlvol kunt zijn
+            zonder je budget te overschrijden. Neem een kijkje in onze
+            uitgebreide collectie en shop jouw favoriete merken gemakkelijk en
+            voordelig online. Bij ons is winkelen niet alleen betaalbaar, maar
+            ook snel en zorgeloos!
+          </p>
         </div>
-    </section>
-
-    <section>
-        <h3>Onze Producten</h3>
-        <div>
-            <div>
-                <img src="https://i8.amplience.net/i/jpl/jd_647114_a?qlt=92&w=600&h=425&v=1&fmt=auto" width="150"
-                    alt="AirMax">
-                <h4>Nike Air Max</h4>
-                <p>€120</p>
-                <p>Comfortabele hardloopschoenen.</p>
-                <button>Voeg toe aan winkelmandje</button>
-            </div>
-            <div>
-                <img src="data:image/jpeg;base64,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"
-                    width="150" alt="Hoodie">
-                <h4>Nike Hoodie</h4>
-                <p>€70</p>
-                <p>Stijlvolle hoodie voor sport.</p>
-                <button>Voeg toe aan winkelmandje</button>
-            </div>
-            <div>
-                <img src="data:image/jpeg;base64,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"
-                    width="150" alt="Nike Rugzak">
-                <h4>Nike Rugzak</h4>
-                <p>€50</p>
-                <p>rugzak voor dagelijks gebruik.</p>
-                <button>Voeg toe aan winkelmandje</button>
-            </div>
-            <div>
-                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/00c3d5b8-032b-4339-8d29-4e16a24f6ce0/M+NSW+TEE+ICON+FUTURA.png"
-                    width="150" alt="Nike T-Shirt">
-                <h4>Nike T-Shirt</h4>
-                <p>€30</p>
-                <p>Ademend sportshirt.</p>
-                <button>Voeg toe aan winkelmandje</button>
-            </div>
-            <div>
-                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/ngjeza7zfbdnpk6xlo6z/M+NSW+CLUB+JGGR+FT.png"
-                    width="150" alt="Nike Trainingsbroek">
-                <h4>Nike Trainingsbroek</h4>
-                <p>€55</p>
-                <p>Comfortabele trainingsbroek voor sport.</p>
-                <button>Voeg toe aan winkelmandje</button>
-            </div>
-            <div>
-                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/29b26d55-c379-48ac-ab28-b6674dc07395/U+NK+NSW+EVERYDAY+ESSENTIAL+CR.png"
-                    width="150" alt="Nike Sokken">
-                <h4>Nike Sokken</h4>
-                <p>€10</p>
-                <p>Hoge kwaliteit sportsokken.</p>
-                <button>Voeg toe aan winkelmandje</button>
-            </div>
-        </div>
-    </section>
-
+      </div>
+    </main>
     <footer>
-        <p><a href="#">Over ons</a> | <a href="#">Contact</a> | <a href="#">Beleid</a></p>
-        <p>Volg ons: <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
-        <p>&copy; 2024 Nike Winkel. Alle rechten voorbehouden.</p>
+      <section id="contact">
+        <h3>Contactinformatie</h3>
+        <p>Adres: Vahestraat 17 1040</p>
+        <p>Telefoon: 0492 41 81 85</p>
+        <p>E-mail: <a href="mailto:info@AhliExpres.com">info@AhliExpres</a></p>
+        <h4>Volg ons op sociale media</h4>
+        <a href="https://www.facebook.com" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+            height="40"
+            width="40"
+            alt="Facebook"
+          />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+            height="40"
+            width="40"
+            alt="Instagram"
+          />
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png"
+            height="40"
+            width="40"
+            alt="Twitter"
+          />
+        </a>
+        <p>&copy; 2024 AhliExpres.</p>
+      </section>
     </footer>
-
-</body>
-
+  </body>
 </html>

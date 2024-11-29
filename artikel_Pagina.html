@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Winkelmand</title>
+=======
+    <title>artikel Pagina</title>
+>>>>>>> 739ca4cf2ebea52f654aefea42fbf43f68c73a67
     <link rel="stylesheet" href="artikel_Pagina.css">
 </head>
 
@@ -12,37 +16,118 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="artikel_Pagina.html">Artikels</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="winkelmand.html">Winkelmand</a></li>
+                <li>
+                    <a href="http://127.0.0.1:3000/index.html"><img class="Homelogo" src="https://i.postimg.cc/GmMFj6LK/Afbeelding-2.jpg" height="150" width="150" alt="Home"></a>
+                </li>
+                <li><a href="#contact">contact</a></li>
+                <li>
+                    <a href="http://127.0.0.1:3000/artikel_Pagina.html">artikels</a>
+                </li>
+                <li>
+                    <input type="text" placeholder="Zoeken..." class="search-bar">
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/login.html"><img src="https://i.postimg.cc/BnqWFPbD/user-interface.png" height="30" width="30" alt="login"></a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/winkelmand.html"><img src="https://i.postimg.cc/QCwttkhp/shopping-cart.png" height="30" width="30" alt="winkelmand"></a>
+                </li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <h1>Mijn Winkelmand</h1>
-        <table border="1">
-            <tr>
-                <th>Product</th>
-                <th>Aantal</th>
-                <th>Prijs</th>
-                <th>Totaal</th>
-                <th>Actie</th>
-            </tr>
-            <tr>
-                <td>NIKE</td>
-                <td><input type="number" value="1" min="1"></td>
-                <td>€ 10,00</td>
-                <td>€ 10,00</td>
-                <td><button>Verwijder</button></td>
-            </tr>
-        </table>
-        <p>Bedrag: € 10,00</p>
-        <button>BETALEN</button>
-    </main>
+        <div id="artikels">
+            <div class="artikels1">
+                <article>
+                    <h2>
+                        <img src="https://i8.amplience.net/i/jpl/jd_647114_a?qlt=92&amp;w=600&amp;h=425&amp;v=1&amp;fmt=auto" height="150" width="200" alt="Air max ">
+                    </h2>
+                    <p>Nike Air Max</p>
+                    <p>120&euro;</p>
+                    <p>
+                        Comfortabele hardloopschoenen maat 43.
+                    </p>
+                    <button type="button" onclick="alert('We hebben dit artikel niet meer probeer morgen opnieuw.')">
+                        Voegtoe aan winkelmandje
+                    </button>
 
+                </article>
+                <br>
+                <br>
+                <article>
+                  <h2>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3db90b5b-2bdb-42f7-bcee-8ef4ba563196/M+NK+TCH+FLC+FZ+WR+HOODIE.png" height="200" width="170" alt="Nike Tech">
+                  </h2>
+                    <p>Nike Tech</p>
+                    <p>119,99&euro;</p>
+                    <p>
+                        Windrunner hoodie met rits voor heren
+                    </p>
+                    <button type="button" onclick="alert('We hebben dit artikel niet meer probeer morgen opnieuw.')">
+                        Voegtoe aan winkelmandje
+                    </button>
+                </article>
+                <br>
+                <br>
+                <article>
+                  <h2>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ad282b3e-9d2f-40a1-a189-6b69dc6dfa67/M+NK+SF+AEROSWFT+BRTBLE+JKT.png" height="200" width="170" alt="Nike AeroSwift">
+                  </h2>
+                    <p>Nike AeroSwift</p>
+                    <p>249,99&euro;</p>
+                    <p>
+                        Storm-FIT Aerogami hardloopjack voor heren
+                    </p>
+                    <button type="button" onclick="alert('We hebben dit artikel niet meer probeer morgen opnieuw.')">
+                        Voegtoe aan winkelmandje
+                    </button>
+                </article>
+            </div>
+            <div class="artikels2">
+                <article>
+                  <h2>
+                    <img src="https://asset.snipes.com/images/f_auto,q_100,d_fallback.png/b_rgb:f8f8f8,c_pad,w_680,h_680/dpr_2.0/02283947_1/asics-sportstyle-gel-venture-6-(gs)-zwart-28543-1" height="200" width="200" alt="Gel-Venture 6 ">
+                  </h2> 
+                    <p>Gel-Venture 6 (GS)</p>
+                    <p>65&euro;</p>
+                    <p>Comfortabele schoen maat 43.</p>
+                    <button type="button" onclick="alert('We hebben dit artikel niet meer probeer morgen opnieuw.')">
+                        Voegtoe aan winkelmandje
+                    </button>
+                </article>
+                <br>
+                <br>
+                <article>
+                  <h2>
+                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cdb0c6a4-fc40-4598-94a2-f154160cffff/M+NK+SF+WR+PL-FLD+HD+PARKA.png" height="200" width="170" alt="Nike Windrunner PrimaLoft">
+                  </h2>
+                    <p>Nike Windrunner PrimaLoft&reg;</p>
+                    <p>279,99&euro;</p>
+                    <p>
+                        Storm-FIT parka met capuchon voor heren
+                    </p>
+                    <button type="button" onclick="alert('We hebben dit artikel niet meer probeer morgen opnieuw.')">
+                        Voegtoe aan winkelmandje
+                    </button>
+                </article>
+                <br>
+                <br>
+                <article>
+                  <h2>
+                    <img src="https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-BE-Site/Sites-master/nl_BE/dw0f03c923/RB9883_031_24.jpg?imwidth=1215&amp;impolicy=pctp" height="200" width="170" alt="zwart lacoste muts">
+                  </h2>
+                    <p>zwart lacoste muts</p>
+                    <p>60&euro;</p>
+                    <p>
+                        Geribbeld Gebreide Muts van Gekaarde Wol
+                    </p>
+                    <button type="button" onclick="alert('We hebben dit artikel niet meer probeer morgen opnieuwe.')">
+                        Voegtoe aan winkelmandje
+                    </button>
+                </article>
+            </div>
+        </div>
+    </main>
     <footer>
         <section id="contact">
             <h3>Contactinformatie</h3>
@@ -66,5 +151,8 @@
         </section>
     </footer>
 </body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 739ca4cf2ebea52f654aefea42fbf43f68c73a67
 </html>
