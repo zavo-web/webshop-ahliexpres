@@ -6,31 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winkelmand</title>
     <link rel="stylesheet" href="winkelmand.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li>
-                    <a href="http://127.0.0.1:3000/index.html"><img class="Homelogo" src="https://i.postimg.cc/GmMFj6LK/Afbeelding-2.jpg" height="150" width="150" alt="Home"></a>
-                </li>
-                <li><a href="#contact">contact</a></li>
-                <li>
-                    <a href="http://127.0.0.1:3000/artikel_Pagina.html">artikels</a>
-                </li>
-                <li>
-                    <input type="text" placeholder="Zoeken..." class="search-bar">
-                </li>
-                <li>
-                    <a href="http://127.0.0.1:3000/login.html"><img src="https://i.postimg.cc/BnqWFPbD/user-interface.png" height="30" width="30" alt="login"></a>
-                </li>
-                <li>
-                    <a href="http://127.0.0.1:3000/winkelmand.html"><img src="https://i.postimg.cc/QCwttkhp/shopping-cart.png" height="30" width="30" alt="winkelmand"></a>
-                </li>
-            </ul>
+          <div class="navigatie">
+            <div class="logo-bar">
+              <a href="http://127.0.0.1:3000/index.html">
+                <img
+                  class="Homelogo"
+                  src="https://i.postimg.cc/GmMFj6LK/Afbeelding-2.jpg"
+                  height="150"
+                  width="150"
+                  alt="Home"
+              /></a>
+  
+              <a href="#contact" class="nav-link">contact</a>
+              <a href="artikel_Pagina.html" class="nav-link">artikels</a>
+            </div>
+  
+            <input type="text" placeholder="Zoeken..." class="search-bar" />
+  
+            <div>
+              <a href="login.html"
+                ><img
+                  src="https://i.postimg.cc/BnqWFPbD/user-interface.png"
+                  height="30"
+                  width="30"
+                  alt="login"
+              /></a>
+  
+              <a href="winkelmand.html"
+                ><img
+                  src="https://i.postimg.cc/QCwttkhp/shopping-cart.png"
+                  height="30"
+                  width="30"
+                  alt="winkelmand"
+              /></a>
+            </div>
+          </div>
         </nav>
-    </header>
+      </header>
+      <hr></hr>
     <main>
         <h1>Mijn Winkelmand</h1>
         <table border="1">

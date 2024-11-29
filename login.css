@@ -1,9 +1,12 @@
 body {
   background-color: #e0e0e0;
+  font-family: "Lato", sans-serif;
 }
 
 .Homelogo {
   border-radius: 100px;
+  width: 100px;
+  height: 100px;
 }
 h4 {
   color: #000000;
@@ -44,7 +47,7 @@ header nav ul li a:hover {
   border-radius: 20px;
 }
 .search-bar:hover {
-  width: 200px;
+  width: 250px;
   transition: 1s ease;
 }
 main nav ul {
@@ -98,4 +101,29 @@ button {
 button:hover {
   background-color: #000000;
   color: white;
+}
+.navigatie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 16px;
+  font-size: 24px;
+  text-transform: capitalize;
+  transition: 0.2s;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: sunderline;
+  color: #828282;
+  transform: scale(1.05);
 }
