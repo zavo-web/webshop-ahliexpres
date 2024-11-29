@@ -1,37 +1,38 @@
 body {
-    background-color:#e0e0e0;
-  }
-  .Homelogo {
-    border-radius: 100px;
-  }
-h4{
-  color:#000000;
+  background-color: #e0e0e0;
 }
-  footer {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    background-color: #e7e7e7;
-    color: rgb(0, 0, 0);
-  }
-  header nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    background-color: #66666600;
-    color: rgb(0, 0, 0);
-   }
-   header nav ul li {
-    display: inline;
-    margin: 0 10px;
-   }
-   header nav ul li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0); 
+
+.Homelogo {
+  border-radius: 100px;
+}
+h4 {
+  color: #000000;
+}
+footer {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #66666600;
+  color: rgb(0, 0, 0);
+}
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
 }
 header nav ul li a {
-  background-color: rgba(143, 51, 51, 0); 
-  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+header nav ul li a {
+  background-color: rgba(143, 51, 51, 0);
+  color: rgb(0, 0, 0);
   border: 2px solid #00000000;
 }
 
@@ -40,47 +41,47 @@ header nav ul li a:hover {
 }
 .search-bar {
   height: 30px;
-  border-radius:20px;
+  border-radius: 20px;
 }
-.search-bar:hover{
+.search-bar:hover {
   width: 200px;
   transition: 1s ease;
 }
-   main nav ul {
-   list-style-type: none;
-   padding: 0;
-   text-align: center;
-   background-color: #333;
-   color: rgb(249, 250, 250);
- }
-  main nav ul li {
-   display: inline;
-   margin: 0 10px;
-  }
-  
+main nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #333;
+  color: rgb(249, 250, 250);
+}
+main nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
 h4 {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    background-color: #33333300;
-    color: rgb(249, 250, 250);
-  }
-  nav ul li a {
-    list-style-type: none;
-    padding: 0;
-    background-color: #33333300;
-    color: rgb(249, 250, 250);
-  }
- form {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #33333300;
+  color: rgb(249, 250, 250);
+}
+nav ul li a {
+  list-style-type: none;
+  padding: 0;
+  background-color: #33333300;
+  color: rgb(249, 250, 250);
+}
+form {
   background-color: #e7e7e7;
   width: 250px;
   padding: 50px;
   margin: 20px;
   border: 0px solid #000000;
   text-align: center;
-  }
-form{
-margin: auto;
+}
+form {
+  margin: auto;
 }
 button {
   padding: 14px 20px;
