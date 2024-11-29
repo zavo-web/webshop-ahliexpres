@@ -1,33 +1,70 @@
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-    <title>
-        artikel Pagina
-    </title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winkelmand</title>
     <link rel="stylesheet" href="artikel_Pagina.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href=""><img src="https://i.postimg.cc/QMYvqwnQ/Logo-Initiales-Nominatif-Moderne-Minimaliste-Noir-Blanc-Violet-1.png" height="30" width="30" alt="Home"></a></li>
-                    <li><input type="text" placeholder="Zoeken..." class="search-bar"></li>
-                    <li><a href=""><img src="https://s.pngkit.com/png/small/518-5186670_login-icon-login-signup-icon-png.png" height="30" width="25" alt="login"></a></li>
-                    <li><a href=""><img src="https://i.postimg.cc/T109TQ33/icoon-winkelwagen.png" height="30" width="30" alt="Home"></a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            
-        </main>
-        <footer>
-            <section id="contact">
-                <h3>Contactinformatie</h3>
-                <p>Adres: Hoofdstraat 123, 1000 AB, Amsterdam</p>
-                <p>Telefoon: +31 6 12345678 | E-mail: info@WinkelWonder.nl</p>
-                <a href="https://www.facebook.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png" height="40" width="40" alt="facebook"></a>
-                <a href="https://www.instagram.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" height="40" width="40" alt="instagram"></a>
-            </section>
-        </footer>
-    </body>
-    </html>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artikel_Pagina.html">Artikels</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="winkelmand.html">Winkelmand</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Mijn Winkelmand</h1>
+        <table border="1">
+            <tr>
+                <th>Product</th>
+                <th>Aantal</th>
+                <th>Prijs</th>
+                <th>Totaal</th>
+                <th>Actie</th>
+            </tr>
+            <tr>
+                <td>NIKE</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>€ 10,00</td>
+                <td>€ 10,00</td>
+                <td><button>Verwijder</button></td>
+            </tr>
+        </table>
+        <p>Bedrag: € 10,00</p>
+        <button>BETALEN</button>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h3>Contactinformatie</h3>
+            <p>Adres: Vahestraat 17 1040</p>
+            <p>Telefoon: 0492 41 81 85</p>
+            <p>E-mail: <a href="mailto:info@AhliExpres.com">info@AhliExpres</a></p>
+            <h4>Volg ons op sociale media</h4>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                    height="40" width="40" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" height="40" width="40"
+                    alt="Instagram">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png"
+                    height="40" width="40" alt="Twitter">
+            </a>
+            <p>&copy; 2024 AhliExpres.</p>
+        </section>
+    </footer>
+</body>
+
+</html>
