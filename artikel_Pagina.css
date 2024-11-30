@@ -10,6 +10,10 @@ header nav ul {
   width: 100px;
   height: 100px;
 }
+body{
+    background-color: #e0e0e0;
+    font-family: "Lato", sans-serif;
+}
 article img{
   border-radius: 50px;
 }
@@ -76,6 +80,7 @@ article {
   border-radius: 50px;
   box-shadow: 3px 5px 3px;
 }
+
 
 .artikels1 {
   display: flex;
