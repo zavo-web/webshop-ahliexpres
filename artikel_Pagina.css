@@ -7,6 +7,8 @@ header nav ul {
 }
 .Homelogo {
   border-radius: 100px;
+  width: 100px;
+  height: 100px;
 }
 article img{
   border-radius: 50px;
