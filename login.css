@@ -127,3 +127,7 @@ button:hover {
   color: #828282;
   transform: scale(1.05);
 }
+
+hr {
+  height: 3px;
+}
