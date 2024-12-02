@@ -1,16 +1,15 @@
-
 .Homelogo {
   border-radius: 100px;
   width: 100px;
   height: 100px;
 }
 
-body{
-    background-color: #e0e0e0;
-    font-family: "Lato", sans-serif;
+body {
+  background-color: #e0e0e0;
+  font-family: "Lato", sans-serif;
 }
 
-article img{
+article img {
   border-radius: 50px;
 }
 
@@ -36,7 +35,7 @@ footer {
   height: 30px;
   border-radius: 20px;
 }
-.search-bar:hover{
+.search-bar:hover {
   width: 200px;
   transition: 1s ease;
 }
@@ -79,21 +78,18 @@ article {
   box-shadow: 3px 5px 3px;
 }
 
-
-.artikels1 {
+.article_block {
   display: flex;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  justify-content: center;
 }
 
-.artikels2 {
-  display: flex;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.article_block article {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.article_block article:hover {
+  transform: translateY(-10px);
 }
 
 .navigatie {
