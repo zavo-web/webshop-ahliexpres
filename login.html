@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link type="image/png" href="img/logo.webp.jpg" rel="icon" />
+  </head>
+  <!-- Amine heeft de hele pagian gemaakt behalven de footer dat vahe heeft gemaakt -->
+  <body>
+    <header>
+      <nav>
+        <div class="navigatie">
+          <div class="logo-bar">
+            <a href="index.html">
+              <img
+                class="Homelogo"
+                src="https://i.postimg.cc/GmMFj6LK/Afbeelding-2.jpg"
+                height="150"
+                width="150"
+                alt="Home"
+            /></a>
+
+            <a href="#contact" class="nav-link">contact</a>
+            <a href="artikels.html" class="nav-link">artikels</a>
+          </div>
+
+          <input type="text" placeholder="Zoeken..." class="search-bar" />
+
+          <div>
+            <a href="login.html"
+              ><img
+                src="https://i.postimg.cc/BnqWFPbD/user-interface.png"
+                height="30"
+                width="30"
+                alt="login"
+            /></a>
+
+            <a href="winkelmand.html"
+              ><img
+                src="https://i.postimg.cc/QCwttkhp/shopping-cart.png"
+                height="30"
+                width="30"
+                alt="winkelmand"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <form>
+        <p></p>
+        voor en achternaam
+        <input type="text" />
+        <p>E-mail</p>
+        <input type="text" />
+        <p>Wachtwoord</p>
+        <input type="text" />
+        <p>geslacht?</p>
+        <input type="radio" />man <input type="radio" />vrouw
+        <input type="radio" />non-binaire
+        <p>wilt u een nieuwsbrief.</p>
+        <input type="checkbox" id="ja" name="ja" value="ja" />
+        <label for="ja">ja</label>
+        <br />
+        <br />
+        <button type="button">Registreren</button>
+      </form>
+      <footer>
+        <section id="contact">
+          <h3>Contactinformatie</h3>
+          <p>Adres: Vahestraat 17 1040</p>
+          <p>Telefoon: 0492 41 81 85</p>
+          <p>E-mail: <a href="mailto:info@AhliExpres.com">info@AhliExpres</a></p>
+          <h3>Volg ons op sociale media</h3>
+          <a href="https://www.facebook.com" target="_blank">
+            <img
+              src="img/facebook-logo.png"
+              height="40"
+              width="40"
+              alt="Facebook"
+            />
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img
+              src="img/instagram.png"
+              height="40"
+              width="40"
+              alt="Instagram"
+            />
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="img/twitter.png" height="40" width="40" alt="Twitter" />
+          </a>
+          <p>&copy; 2024 AhliExpres.</p>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>

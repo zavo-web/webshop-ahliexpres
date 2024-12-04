@@ -1,0 +1,107 @@
+body {
+  background-color: #e0e0e0;
+  font-family: "Lato", sans-serif;
+}
+
+.Homelogo {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+  text-decoration: sunderline;
+  color: #828282;
+  transform: scale(1.05);
+}
+
+.search-bar {
+  height: 30px;
+  border-radius: 20px;
+}
+
+.search-bar:hover {
+  width: 200px;
+  transition: 1s ease;
+}
+
+.navigatie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 16px;
+  font-size: 24px;
+  text-transform: capitalize;
+  transition: 0.2s;
+}
+
+hr {
+  height: 3px;
+}
+
+button {
+  padding: 14px 20px;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+
+button {
+  background-color: rgba(143, 51, 51, 0);
+  color: rgb(0, 0, 0);
+  border: 2px solid #000000;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+article {
+  background-color: #e7e7e7;
+  width: 250px;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 3px 5px 3px;
+}
+
+article img {
+  border-radius: 50px;
+}
+
+.article_block {
+  display: flex;
+  justify-content: center;
+}
+
+.article_block article {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.article_block article:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+}
