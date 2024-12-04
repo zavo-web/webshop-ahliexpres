@@ -12,17 +12,7 @@ header a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-header nav ul li a:hover {
-  color: rgb(255, 255, 255);
-}
 
-footer {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-  background-color: #e7e7e7;
-  color: rgb(0, 0, 0);
-}
 .search-bar {
   height: 30px;
   border-radius: 20px;
@@ -30,53 +20,6 @@ footer {
 .search-bar:hover {
   width: 250px;
   transition: 1s ease;
-}
-
-.background-img {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  min-height: 100vh;
-  width: 100%;
-  background: url("https://cdn.runrepeat.com/storage/gallery/product_content/25696/nike-dunk-low-background-21444876-main.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.aanbiedingen {
-  display: flex;
-  flex-direction: column;
-}
-
-button {
-  background-color: rgb(255, 255, 255);
-  width: 100px;
-  height: 50px;
-  border-radius: 30px;
-  border: none;
-  font-size: 16px;
-  font-weight: bold;
-  transition: 0.3s ease, 0.3s ease;
-  margin-left: 30px;
-}
-button:hover {
-  background-color: #000000;
-  color: white;
-}
-.background-img {
-  align-items: center;
-}
-hr {
-  height: 3px;
-}
-.over_ons {
-  background-color: #e7e7e7;
-  width: 600px;
-  padding: 100px;
-  margin: 70px;
-  text-align: center;
-  border-radius: 50px;
-  margin: auto;
 }
 
 .navigatie {
@@ -91,7 +34,7 @@ hr {
 }
 
 .nav-link {
-  padding: 16px;
+  padding: 20px;
   font-size: 24px;
   text-transform: capitalize;
   transition: 0.2s;
@@ -101,4 +44,58 @@ hr {
   text-decoration: sunderline;
   color: #828282;
   transform: scale(1.05);
+}
+
+.background-img {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  min-height: 100vh;
+  width: 100%;
+  background: url("/img/nike-dunk.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease, 0.3s ease;
+  margin-left: 30px;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+.background-img {
+  align-items: center;
+}
+
+hr {
+  height: 3px;
+}
+
+.over_ons {
+  background-color: #e7e7e7;
+  width: 600px;
+  padding: 100px;
+  margin: 70px;
+  text-align: center;
+  border-radius: 50px;
+  margin: auto;
+}
+
+footer {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
 }
